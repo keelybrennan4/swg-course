@@ -1,0 +1,41 @@
+/*
+Creator: Keely Brennan
+Date created: 12/21/2019
+Date last modified: 12/21/2019
+
+menu page styling
+*/
+
+#menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/hero-menu.jpg");
+    height: 40vh;
+    background-position: center center; 
+}
+
+h1 {
+    padding: 1em;
+    font-size: 3em;
+}
+
+.menu-category {
+    margin: 10px 20px 10px 30px;
+    padding: 10px;
+}
+
+h3.menu-sub-category {
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu-description {
+    margin: 4px 0px 12px 0px;
+    font-size: 10px;
+}
+

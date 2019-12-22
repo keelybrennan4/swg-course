@@ -1,0 +1,55 @@
+/*
+Creator: Keely Brennan
+Date created: 12/21/2019
+Date last modified: 12/21/2019
+
+home page styling
+*/
+
+/* jumbotron override */
+#welcome {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/taco-home.jpg");
+    min-height: 80vh;
+    background-position: center center;  
+    padding: 7rem 3rem;
+}
+
+#tagline {
+    margin: 4vw;
+}
+
+.h1-main {
+    margin: 15%;
+    font-size: 3.6vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.p-description {
+    font-size: 2vw;
+}
+
+/* carousel styling */
+#homeCarousel{
+    padding: 5px 2vh;
+}
+
+.carousel-caption {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    text-align: left;
+    color: white;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    bottom: -5px;
+    padding: 5px 12px;
+}
+.h5-carousel {
+    font-size: 2.4vw; 
+}
+.p-carousel{
+    font-size: 1.8vw;
+    line-height: .9vw;
+}

@@ -1,0 +1,82 @@
+/*
+Creator: Keely Brennan
+Date created: 12/21/2019
+Date last modified: 12/21/2019
+
+contact page styling
+*/
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/hero-contact.jpg");
+    height: 40vh;
+    background-position: bottom center;  
+}
+
+h1 {
+    padding: 1em;
+    font-size: 3em;
+}
+
+/*Form styling */
+form {
+    margin: 1vw 3vw;
+}
+
+label, fieldset{
+    font-size: 1em;
+    margin: 0px;
+}
+
+
+.form-check-input {
+    position: relative;
+    margin: 2px 2px 0px 10px;
+}
+
+.form-check-label {
+    margin-left: 0px;
+}
+
+.form-group.required label {
+    font-weight: bolder;
+}
+
+.form-group.required label:after {
+    content:"*";
+    color:red;
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: hotpink;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    opacity: .7;
+}
+
+.btn:hover {
+    background-color: hotpink;
+    color: white;
+    opacity: 1;
+
+}
+
+.btn:active {
+    background-color: hotpink;
+    opacity: 1;
+}
+
+
+.modal-content {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.modal-header, .modal-footer {
+    border: 0px;
+}
+
+.modal-body {
+    border: 0px;
+}

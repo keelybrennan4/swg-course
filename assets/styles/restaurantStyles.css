@@ -1,0 +1,123 @@
+/*
+Creator: Keely Brennan
+Date created: 12/20/2019
+Date last modified: 12/21/2019
+
+For global styling
+
+font-family: 'Playfair Display', serif;
+font-family: 'Permanent Marker', cursive;
+*/
+
+body {
+    background-color:#f9f9f9;
+    font-family: 'Playfair Display', serif;
+    color: #1c2841;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header, footer {
+    background-color: #1c2841;
+    color:  #fafafa;
+    text-align: center;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 9em;
+    color: white;
+    text-transform: uppercase;
+}
+
+p.lead {
+    font-size: 20px;
+    color: white;
+}
+
+h2.heading {
+    text-align: center;
+    color: #1c2841;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+p.sub-heading {
+    text-align: center;
+    color: #1c2841;
+    font-size: 1.4em;
+
+}
+
+span .glyphicon-home {
+    height: 10px;
+    color: white;
+}
+
+
+/* navbar styling */
+.navbar {
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    height: 7.2em;
+    margin: 0px;
+    padding: 0px;
+    border-width: 10px;
+    border-bottom: groove hotpink;
+}
+
+.navbar-brand {
+    font-size: 2.6em;
+    color: white;
+}
+
+a, nav.a {
+    color: white;
+}
+
+a:hover, nav a:hover {
+   color: hotpink;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: hotpink;
+}
+
+.nav-pills .nav-link:hover {
+    border-radius: 0px;
+    color: hotpink;
+    font-weight: bolder;
+}
+
+.nav-pills .nav-link {
+    background-color: transparent;
+    color: white;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color: hotpink;
+    font-size: 1.2em;
+}
+
+/* footer styling */
+footer {
+    height: 4em;
+    padding: .5em;
+    margin-top: 1em;
+    border-width: 10px;
+    border-top: groove hotpink;
+}
