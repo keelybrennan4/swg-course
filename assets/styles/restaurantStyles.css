@@ -113,10 +113,12 @@ a:hover, nav a:hover {
     font-size: 1.2em;
 }
 
+
+
 /* footer styling */
 footer {
-    height: 4em;
-    padding: .5em;
+    height: 4.5em;
+    padding-top: .5em;
     margin-top: 1em;
     border-width: 10px;
     border-top: groove hotpink;

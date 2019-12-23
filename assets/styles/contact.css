@@ -80,3 +80,14 @@ label, fieldset{
 .modal-body {
     border: 0px;
 }
+
+
+#success{
+    min-height: 40vh;
+    max-height: 60vh;
+}
+
+.h2-success {
+    margin-top: 20px;
+    text-align: center;
+}
